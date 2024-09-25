@@ -229,14 +229,16 @@ export default function Component() {
             <SelectValue placeholder="Select preferred materials" />
           </SelectTrigger>
           <SelectContent className="bg-[#2a3142] border-none">
-            <SelectItem value="recycled-cardboard">
+            <SelectItem className="text-white" value="recycled-cardboard">
               Recycled Cardboard
             </SelectItem>
-            <SelectItem value="biodegradable-peanuts">
+            <SelectItem className="text-white" value="biodegradable-peanuts">
               Biodegradable Peanuts
             </SelectItem>
-            <SelectItem value="paper-tape">Paper Tape</SelectItem>
-            <SelectItem value="compostable-mailers">
+            <SelectItem className="text-white" value="paper-tape">
+              Paper Tape
+            </SelectItem>
+            <SelectItem className="text-white" value="compostable-mailers">
               Compostable Mailers
             </SelectItem>
           </SelectContent>
@@ -624,7 +626,7 @@ export default function Component() {
         <CardHeader className="border-b border-gray-700">
           <div className="flex items-center space-x-2">
             <Package className="h-6 w-6 text-yellow-500" />
-            <CardTitle className="text-2xl font-bold">
+            <CardTitle className="text-2xl font-bold text-white">
               SustainPack Advisor
             </CardTitle>
           </div>
