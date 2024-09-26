@@ -262,10 +262,7 @@ export default function Component() {
           </span>
         </div>
       </div>
-      <Button
-        className="w-full bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600"
-        type="submit"
-      >
+      <Button className="w-full bg-[#4299E1] hover:bg-[#4299E1]" type="submit">
         Get Recommendations
         <ArrowRight className="ml-2 h-4 w-4" />
       </Button>
@@ -434,19 +431,19 @@ export default function Component() {
               <TabsList className="grid w-full grid-cols-3 bg-[#1e2435]">
                 <TabsTrigger
                   value="cost"
-                  className="data-[state=active]:bg-[#3a4152]"
+                  className="data-[state=active]:bg-[#4299E1]"
                 >
                   Cost
                 </TabsTrigger>
                 <TabsTrigger
                   value="carbon"
-                  className="data-[state=active]:bg-[#3a4152]"
+                  className="data-[state=active]:bg-[#4299E1]"
                 >
                   Carbon Footprint
                 </TabsTrigger>
                 <TabsTrigger
                   value="recyclability"
-                  className="data-[state=active]:bg-[#3a4152]"
+                  className="data-[state=active]:bg-[#4299E1]"
                 >
                   Recyclability
                 </TabsTrigger>
@@ -612,7 +609,7 @@ export default function Component() {
             </ul>
           </CardContent>
         </Card>
-        <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600">
+        <Button className="w-full bg-[#4299E1] hover:bg-[#4299E1]">
           Download Comprehensive Report
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
@@ -625,7 +622,7 @@ export default function Component() {
       <Card className="w-full max-w-4xl mx-auto bg-[#1e2435] border-none shadow-lg">
         <CardHeader className="border-b border-gray-700">
           <div className="flex items-center space-x-2">
-            <Package className="h-6 w-6 text-yellow-500" />
+            <Package className="h-6 w-6 text-[#4299E1]" />
             <CardTitle className="text-2xl font-bold text-white">
               SustainPack Advisor
             </CardTitle>
